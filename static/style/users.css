@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-width: 100vw;
+  background-image: url({{url_for("static", filename= "assets/fundo2.png")}});
+}
+table {
+  margin: auto;
+  margin-top: 200px;
+  max-width: 1200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 65%;
+  margin: auto;
+}
+
+.button_header {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.button_header a:visited {
+  color: inherit;
+}
+
+.button_header a {
+  padding-inline: 10px;
+}
